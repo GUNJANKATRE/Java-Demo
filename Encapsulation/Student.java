@@ -1,62 +1,32 @@
-
-public class Student
+public class Student 
 {
-    public String name;
-    private int age;
-    public String address;
-    private long phone;
-    public String email;
-    private String gender;
-    
-    public String getName()
-    {
-    	return name;
-    }
-    public void setName(String n)
-    {
-    	name=n;
-    }
-    public  int getAge()
-    {
-    	return age;
-    }
-    public void setAge(int a)
-    {
-    	age=a;
-    }
-    public String getAddress()
-    {
-    	return address;
-    }
-    public void setAddress(String add)
-    {
-    	address=add;
-    }
-      public long getPhone()
+	  private String StudentName;
+	  private String StudentId;
+      private char Grade;
+      
+      public String getStudentName()
       {
-      	return phone;
+    	  return StudentName;
       }
-      public  void setPhone(long ph)
+      public void setStudentName(String Name) 
       {
-      	phone=ph;
+    	  StudentName= Name;
       }
-      public String getEmail()
+      public String getStudentId()
       {
-      	return email;
+    	  return StudentId;
       }
-      public void setEmail(String em)
+      public void setStudentId(String Id) 
       {
-          email=em;
+    	  StudentId= Id;
       }
-      public String getGender()
+      public char getGrade()
       {
-      	return gender;
+    	  return Grade;
       }
-      public void setGender(String gen)
+      public void setGrade(char ch) 
       {
-      	gender=gen;
+    	  Grade= ch;
       }
-         
- }
-
-
+      
+}
